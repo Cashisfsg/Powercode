@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Powercode/static/css/main.4970a11e.css",
-    "main.js": "/Powercode/static/js/main.068699a6.js",
+    "main.js": "/Powercode/static/js/main.32acf5fd.js",
     "static/media/course_1.jpg": "/Powercode/static/media/course_1.4662e2bc5969dd797c1a.jpg",
     "static/media/course_4.jpg": "/Powercode/static/media/course_4.419ed10792bfc78b4bcd.jpg",
     "static/media/course_2.jpg": "/Powercode/static/media/course_2.2f2df6a805e0916f96f4.jpg",
@@ -17,10 +17,10 @@
     "static/media/facebook.svg": "/Powercode/static/media/facebook.48aa64b1879fcbd93ec048ee2efc8c18.svg",
     "static/media/telegram.svg": "/Powercode/static/media/telegram.57ea7d511cd86732fee7b773e3fc4caa.svg",
     "main.4970a11e.css.map": "/Powercode/static/css/main.4970a11e.css.map",
-    "main.068699a6.js.map": "/Powercode/static/js/main.068699a6.js.map"
+    "main.32acf5fd.js.map": "/Powercode/static/js/main.32acf5fd.js.map"
   },
   "entrypoints": [
     "static/css/main.4970a11e.css",
-    "static/js/main.068699a6.js"
+    "static/js/main.32acf5fd.js"
   ]
 }
