@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/powercode/static/css/main.4970a11e.css",
-    "main.js": "/powercode/static/js/main.017ab662.js",
-    "static/media/course_1.jpg": "/powercode/static/media/course_1.4662e2bc5969dd797c1a.jpg",
-    "static/media/course_4.jpg": "/powercode/static/media/course_4.419ed10792bfc78b4bcd.jpg",
-    "static/media/course_2.jpg": "/powercode/static/media/course_2.2f2df6a805e0916f96f4.jpg",
-    "static/media/course_3.jpg": "/powercode/static/media/course_3.9a1a0d487d313b2f1b52.jpg",
-    "static/media/benefit_2.svg": "/powercode/static/media/benefit_2.07b4415f8559312bc3b0c933c362a566.svg",
-    "static/media/benefit_4.svg": "/powercode/static/media/benefit_4.f15111ea3979f46fba463f3a2b880961.svg",
-    "static/media/benefit_3.svg": "/powercode/static/media/benefit_3.2053f96dd17ffeec729d7b0b86f41ebc.svg",
-    "static/media/benefit_1.svg": "/powercode/static/media/benefit_1.b863045104e53a34d0b7485b9c0ee900.svg",
-    "static/media/youtube.svg": "/powercode/static/media/youtube.96ea7d1a2dfb4f8e140431d1a44ba463.svg",
-    "index.html": "/powercode/index.html",
-    "static/media/instagram.svg": "/powercode/static/media/instagram.a58d2d0698ef8bfbf9188c19f777c7ea.svg",
-    "static/media/linkedin.svg": "/powercode/static/media/linkedin.75cce4b3e48264720f88b6787e86683c.svg",
-    "static/media/facebook.svg": "/powercode/static/media/facebook.48aa64b1879fcbd93ec048ee2efc8c18.svg",
-    "static/media/telegram.svg": "/powercode/static/media/telegram.57ea7d511cd86732fee7b773e3fc4caa.svg",
-    "main.4970a11e.css.map": "/powercode/static/css/main.4970a11e.css.map",
-    "main.017ab662.js.map": "/powercode/static/js/main.017ab662.js.map"
+    "main.css": "/Powercode/static/css/main.4970a11e.css",
+    "main.js": "/Powercode/static/js/main.e7c13df4.js",
+    "static/media/course_1.jpg": "/Powercode/static/media/course_1.4662e2bc5969dd797c1a.jpg",
+    "static/media/course_4.jpg": "/Powercode/static/media/course_4.419ed10792bfc78b4bcd.jpg",
+    "static/media/course_2.jpg": "/Powercode/static/media/course_2.2f2df6a805e0916f96f4.jpg",
+    "static/media/course_3.jpg": "/Powercode/static/media/course_3.9a1a0d487d313b2f1b52.jpg",
+    "static/media/benefit_2.svg": "/Powercode/static/media/benefit_2.07b4415f8559312bc3b0c933c362a566.svg",
+    "static/media/benefit_4.svg": "/Powercode/static/media/benefit_4.f15111ea3979f46fba463f3a2b880961.svg",
+    "static/media/benefit_3.svg": "/Powercode/static/media/benefit_3.2053f96dd17ffeec729d7b0b86f41ebc.svg",
+    "static/media/benefit_1.svg": "/Powercode/static/media/benefit_1.b863045104e53a34d0b7485b9c0ee900.svg",
+    "static/media/youtube.svg": "/Powercode/static/media/youtube.96ea7d1a2dfb4f8e140431d1a44ba463.svg",
+    "index.html": "/Powercode/index.html",
+    "static/media/instagram.svg": "/Powercode/static/media/instagram.a58d2d0698ef8bfbf9188c19f777c7ea.svg",
+    "static/media/linkedin.svg": "/Powercode/static/media/linkedin.75cce4b3e48264720f88b6787e86683c.svg",
+    "static/media/facebook.svg": "/Powercode/static/media/facebook.48aa64b1879fcbd93ec048ee2efc8c18.svg",
+    "static/media/telegram.svg": "/Powercode/static/media/telegram.57ea7d511cd86732fee7b773e3fc4caa.svg",
+    "main.4970a11e.css.map": "/Powercode/static/css/main.4970a11e.css.map",
+    "main.e7c13df4.js.map": "/Powercode/static/js/main.e7c13df4.js.map"
   },
   "entrypoints": [
     "static/css/main.4970a11e.css",
-    "static/js/main.017ab662.js"
+    "static/js/main.e7c13df4.js"
   ]
 }
