@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 
 import CourseCard from '../components/CourseCard';
+import Container from '../components/ui/Container';
 import Title from '../components/ui/Title';
 
 import Course1 from '../images/course_1.jpg';
@@ -20,31 +21,32 @@ const Courses = () => {
     ]
 
     return (
-        <Wrapper>
-            <Title>Доступные курсы</Title>
-            <CoursesContainer>
-                {courses.map(course => (
-                    <CourseCard 
-                        key={course.id}
-                        imageSrc={course?.img}
-                        courseName={course?.name}
-                        shortDescription={course?.description}
-                    />
-                ))}
-            </CoursesContainer>
-
-        </Wrapper>
+        <CoursesWrapper>
+            <Container>
+                <Title>Доступные курсы</Title>
+                <CoursesContainer>
+                    {courses.map(course => (
+                        <CourseCard 
+                            key={course.id}
+                            imageSrc={course?.img}
+                            courseName={course?.name}
+                            shortDescription={course?.description}
+                        />
+                    ))}
+                </CoursesContainer>
+            </Container>
+        </CoursesWrapper>
     );
 }
 
 export default Courses;
 
-const Wrapper = styled.main`
+const CoursesWrapper = styled.section`
     display: flex;
     flex-direction: column;
-    align-items: center;  
+    align-items: center; 
 
-    padding: 0 150px;
+    margin-bottom: 50px;
 `;
 
 const CoursesContainer = styled.div`
@@ -53,4 +55,8 @@ const CoursesContainer = styled.div`
     
     grid-gap: 3px;
     grid-template-columns: repeat(2, 1fr);
+
+    @media (max-width: 767px) {
+        grid-template-columns: 1fr;
+    }
 `;

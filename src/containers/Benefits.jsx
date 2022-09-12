@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 
 import BenefitCard from '../components/BenefitCard';
+import Container from '../components/ui/Container';
 import Title from '../components/ui/Title';
 
 import Benefit1 from '../images/benefit_1.svg';
@@ -19,29 +20,32 @@ const Benefits = () => {
     ]
 
     return (
-        <Wrapper>
-            <Title>Преимущества</Title>
-            <BenefitsContainer>
-                {benefits.map((benefit, i) => (
-                    <BenefitCard 
-                        key={benefit.id}
-                        number={i + 1}
-                        imageSrc={benefit?.img}
-                        title={benefit?.title}
-                        description={benefit?.description}
-                    />
-                ))}
-            </BenefitsContainer>
-        </Wrapper>
+        <BenefitsWrapper>
+            <Container>
+                <Title>Преимущества</Title>
+                <BenefitsContainer>
+                    {benefits.map(benefit => (
+                        <BenefitCard 
+                            key={benefit.id}
+                            imageSrc={benefit?.img}
+                            title={benefit?.title}
+                            description={benefit?.description}
+                        />
+                    ))}
+                </BenefitsContainer>
+            </Container>
+        </BenefitsWrapper>
     );
 }
 
 export default Benefits;
 
-const Wrapper = styled.div`
+const BenefitsWrapper = styled.section`
     display: flex;
     flex-direction: column;
-    align-items: center; 
+    align-items: center;
+
+    margin-bottom: 80px;
 `;
 
 const BenefitsContainer = styled.div`
@@ -51,4 +55,7 @@ const BenefitsContainer = styled.div`
     place-items: left;
     grid-template-columns: repeat(2, 1fr);
 
+    @media (max-width: 767px) {
+        grid-template-columns: 1fr;
+    }
 `;

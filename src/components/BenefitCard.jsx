@@ -2,47 +2,37 @@ import React from 'react';
 import styled from 'styled-components';
 
 const BenefitCard = ({
-    number,
     imageSrc,
     title,
     description,
     ...props
 }) => {
     return (
-        <CardContainer number={number}>
-            <CardWrapper>
-                <Picture src={imageSrc} alt=''/>
-                <Title>
-                    {title}
-                </Title>
-                <Description>
-                    {description}
-                </Description>
-            </CardWrapper>
-        </CardContainer>
+        <CardWrapper>
+            <Picture src={imageSrc} alt=''/>
+            <Title>
+                {title}
+            </Title>
+            <Description>
+                {description}
+            </Description>
+        </CardWrapper>
     );
 }
 
 export default BenefitCard;
 
-const CardContainer = styled.section`
+const CardWrapper = styled.article`
     display: flex;
-    justify-content: ${({number}) => number % 2 ? 'flex-end' : 'flex-start'};
-
-    width: 100%;
-    padding: 18px 115px;
+    flex-direction: column;
+    align-items: center;
+    padding: 18px 16px;
 
     background: rgba(255, 255, 255, 0.38);
     border: 1px solid #FFFFFF;
     backdrop-filter: blur(11px);
 
     border-radius: 2px;
-`;
-
-const CardWrapper = styled.article`
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 `;
 
 const Picture = styled.img`
@@ -58,12 +48,13 @@ const Title = styled.h4`
     font-size: 20px;
     font-weight: 700;
     line-height: 140%;
+    text-align: center;
 
     color: #173C5C;
 `;
 
 const Description = styled.p`
-    width: 356px;
+    width: 100%;
 
     font-size: 16px;
     font-weight: 500;

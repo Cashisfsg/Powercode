@@ -1,6 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
 
+import Container from '../components/ui/Container';
+
 import LinkedIn from '../icons/linkedin.svg';
 import Facebook from '../icons/facebook.svg';
 import YouTube from '../icons/youtube.svg';
@@ -18,38 +20,46 @@ const Footer = () => {
     ] 
 
     return (
-        <FooterContainer>
-            <Text>Ⓒ Powered by POWERCODE</Text>
-            <SocialNetworks>
-                {socialNetworks.map(network => (
-                    <a 
-                        href={network.url} 
-                        target='_blank'
-                    >
-                        <SocialNetworkLogo 
-                            key={network.id}
-                            src={network.logo} 
-                            alt=''
-                        />
-                    </a>
-                ))}
-            </SocialNetworks>
-        </FooterContainer>
+        <FooterWrapper>
+            <Container>
+                <FooterContainer>
+                    <Text>Ⓒ Powered by POWERCODE</Text>
+                    <SocialNetworks>
+                        {socialNetworks.map(network => (
+                            <a
+                                key={network.id}
+                                href={network.url} 
+                                target='_blank'
+                            >
+                                <SocialNetworkLogo 
+                                    src={network.logo} 
+                                    alt=''
+                                />
+                            </a>
+                        ))}
+                    </SocialNetworks>
+                </FooterContainer>
+            </Container>
+        </FooterWrapper>
     );
 }
 
 export default Footer;
 
-const FooterContainer = styled.footer`
+const FooterWrapper = styled.footer`
+    height: 100px;
+    width: 100%;
+
+    background: #173C5C;
+`;
+
+const FooterContainer = styled.div`
     display: flex;
     justify-content: space-between;
     align-items: center;
 
-    height: 100px;
-    width: 100%;
-    padding: 0 150px;
-
-    background: #173C5C;
+    height: 100%;
+    width: 100%;;
 `;
 
 const Text = styled.span`

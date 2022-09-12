@@ -43,9 +43,9 @@ const CardContainer = styled.article`
 `;
 
 const Picture = styled.img`
-    height: 328px;
     width: 100%;
     margin-bottom: 25px;
+    aspect-ratio: 1.78;
 
     border: none;
     outline: none;
@@ -53,21 +53,25 @@ const Picture = styled.img`
 `;
 
 const CourseName = styled.h4`
+    padding: 0 16px;
     margin-bottom: 10px;
 
     font-size: 20px;
     font-weight: 700;
     line-height: 140%;
+    text-align: center;
 
     color: #173C5C;  
 `;
 
 const ShortDescription = styled.p`
+    padding: 0 16px;
     margin-bottom: 28px;
 
     font-size: 16px;
     font-weight: 500;
     line-height: 140%;
+    text-align: center;
 
     color: #173C5C;  
 `;
